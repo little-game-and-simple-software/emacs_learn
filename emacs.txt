@@ -1,0 +1,45 @@
+Ctrl x Ctrl c 退出emacs
+C g 退出运行的程序
+C v 下一屏幕 page up 和 page down也可以滚动屏幕
+Alt - 简称M
+M v 上一屏幕
+
+C l 重绘屏幕 并将光标定位在当中
+光标控制
+c p 上一行 previous 
+c n 下一行 next line
+c b  左移  back
+c f 右移 forward
+m f 前移动一个单词
+m b 后移动一个单词
+
+ctrl 字符 行等 alt 句子段落
+c a 行首 c e 行尾
+m a 句首 m e 句尾 e:end
+shift alt m 移动到所有文字的末尾
+emacs命令支持数字参数
+c u 重复指令
+c g 退出
+c k 删除从光标到行尾的字符
+cm k 删除从光标到句尾的字符
+c / 撤销
+
+文件
+c x c f (find) 寻找文件
+找不到 自动创建新文件
+c x c s 保存文件(save)
+cx cb 列出缓冲区 一个文件是一个缓冲区
+
+搜索(search)
+I search 渐进式搜索状态
+c s向前搜索
+c r向后搜索
+
+c h 帮助
+多窗格
+cx 数字 窗格个数(分割窗口）
+cx o 激活其他窗格 (other)
+emacs拓展命令(extends)
+c x
+cx u 撤销
+m x 切换emacs模式
